@@ -29,6 +29,7 @@ const ProductForm = () => {
             .catch(err => console.log("ERRORRRR-->", err))
     }, [createClicked])
 
+    // Change handler to check if page has changed
     const changeHandler = (e) => {
         console.log("changin something")
         console.log(e.target.name, e.target.value)
